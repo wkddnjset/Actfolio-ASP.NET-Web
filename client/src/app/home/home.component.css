@@ -1,0 +1,42 @@
+.actor_profile_list{
+	margin: 10% 0;
+}
+.card{
+	margin:auto;
+	box-shadow: 1px 1px 10px #bdbdbd;
+	margin-bottom:10px;
+}
+.leftRs{
+	position: absolute;
+    bottom: 55%;
+    background: none;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+.rightRs{
+	position: absolute;
+	right: 0;
+    bottom: 55%;
+    background: none;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+}
+.main_img{
+	position: relative;
+	width: 100%;
+}
+.top_img{
+	background-image: linear-gradient(to top, white 0%,black 200%), url("http://localhost:4200/assets/images/slide2.jpg");
+	background-blend-mode: multiply;
+    margin-top: -95px;
+    height: 550px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button:focus{
+    outline: none !important;
+}

@@ -1,11 +1,11 @@
 from rest_framework import generics
-from ..models import ExampleModel
-from .serializers import ExampleModelSerializers
+from ..models import *
+from .serializers import *
 
-class ExampleModelView(generics.ListAPIView):
+class ActorView(generics.ListAPIView):
     lookup_field = 'id'
-    serializer_class = ExampleModelSerializers
+    serializer_class = ActorSerializers
     # queryset = BlogPost.objects.all()
 
     def get_queryset(self):
-        return ExampleModel.objects.all()
+        return Actor.objects.all()

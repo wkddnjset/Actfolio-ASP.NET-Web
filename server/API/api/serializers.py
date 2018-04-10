@@ -1,11 +1,12 @@
 from rest_framework import serializers
-from ..models import ExampleModel
+from ..models import *
 
-class ExampleModelSerializers(serializers.ModelSerializer):
+class ActorSerializers(serializers.ModelSerializer):
     class Meta:
-        model = ExampleModel
+        model = Actor
         fields = [
-            'id',
-            'text',
+            'name',
+            'email',
+            'phone',
             'img'
         ]
