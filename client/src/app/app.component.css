@@ -31,7 +31,7 @@ header{
     width: 100%;
 }
 .footer-top ul li {
-    float: left;
+    float: center;
     display: inline-block;
 }
 .footer-top ul li a {
@@ -52,7 +52,7 @@ header{
     line-height: 1.6;
 }
 .footer-middle ul li {
-    float: left;
+    float: center;
     display: inline-block;
 }
 .footer-middle ul li span:after {

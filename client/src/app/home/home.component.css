@@ -1,12 +1,15 @@
+
 .actor_profile_list{
 	margin: 10% 0;
 }
+
 .card{
 	margin:auto;
 	box-shadow: 1px 1px 10px #bdbdbd;
 	margin-bottom:10px;
 }
 .leftRs{
+	left: -50px;
 	position: absolute;
     bottom: 55%;
     background: none;
@@ -15,8 +18,8 @@
     font-weight: 600;
 }
 .rightRs{
+	right: -50px;
 	position: absolute;
-	right: 0;
     bottom: 55%;
     background: none;
     border: none;
@@ -36,6 +39,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.card-img-top{
+	height: 200px;
 }
 button:focus{
     outline: none !important;
